@@ -1,0 +1,44 @@
+## Oracle ATP Database Setup
+
+These instructions outline the steps to set up the Oracle ATP database for the project.
+
+**1. Provision an Oracle ATP Instance:**
+   - Log in to your Oracle Cloud Infrastructure (OCI) account.
+   - Navigate to the Oracle Autonomous Transaction Processing (ATP) service.
+   - Create a new ATP instance. Provide a database name, display name, and password.
+   - Choose a workload type (Transaction Processing).
+   - Configure the compute and storage resources for the ATP instance.
+
+**2. Download the Client Credentials:**
+   - After the ATP instance is provisioned, download the client credentials (e.g., `wallet.zip`).
+   - This file contains the necessary certificates and configuration files to connect to the database securely.
+
+**3. Configure Database Access:**
+   - Configure network access to allow connections from the backend application.
+   - You can use OCI Network Security Groups (NSGs) or Security Lists to control network traffic.
+
+**4. Create Database User:**
+   - Connect to the ATP instance using a SQL client (e.g., SQL Developer).
+   - Create a new database user for the application.
+     ```sql
+     CREATE USER <username> IDENTIFIED BY <password>;
+     GRANT CONNECT, RESOURCE TO <username>;
+     ```
+
+**5. Create Database Tables:**
+   - Design the database schema based on the application requirements.
+   - Create the necessary tables and indexes.
+     ```sql
+     CREATE TABLE <table_name> (
+       <column_name> <data_type>,
+       ...
+     );
+     ```
+
+**6. Configure Database Connection in Backend:**
+   - In the Python backend application, configure the database connection using the `oracledb` driver.
+   - Provide the database connection string, username, and password.
+   - Use the client credentials (wallet.zip) to establish a secure connection.
+
+
+This setup provides a basic Oracle ATP database environment. Customize the setup further based on the specific needs of the project.
