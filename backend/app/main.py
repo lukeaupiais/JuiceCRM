@@ -8,7 +8,7 @@ import json
 
 app = FastAPI()
 
-# Dependency
+# Dependency test
 def get_db():
     db = database.SessionLocal()
     try:
