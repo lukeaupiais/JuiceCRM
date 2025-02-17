@@ -1,0 +1,73 @@
+Frontend Development Environment Setup
+
+Prerequisites
+
+1. Node.js and npm:
+   Download and install the latest LTS version of Node.js from https://nodejs.org/. This will also install npm (Node Package Manager).
+   Verify the installation by opening your terminal or command prompt and running:
+   node -v
+   npm -v
+   These commands should display the installed versions of Node.js and npm, respectively.
+
+2. Yarn (Optional):
+   If you prefer using Yarn over npm, you can install it globally via npm:
+   npm install -g yarn
+   Verify the installation:
+   yarn -v
+
+3. IDE/Text Editor:
+   A code editor like Visual Studio Code (VS Code), Sublime Text, or Atom.
+   VS Code is recommended, with extensions for Next.js, React, and Tailwind CSS development, such as:
+     - ES7+ React/Redux/React-Native snippets
+     - Tailwind CSS IntelliSense
+     - Prettier - Code formatter
+
+Project Initialization
+
+1. Create a Next.js project:
+   Open your terminal and navigate to the project directory:
+   cd C:/Users/aupia/Git/MegaTEAM/devteam/juice
+   Create a new Next.js project using create-next-app:
+   npx create-next-app@latest .
+   Follow the prompts, and when it ask you to choose between App Router or Pages Router, choose App Router, when it ask you to choose between using Typescript and Javascript, choose Javascript. Choose yes for ESLint and TailwindCSS.
+
+2. Install Tailwind CSS (if not already included):
+   If you did select tailwind during project creation, skip this step.  Otherwise, follow the instructions on the Tailwind CSS website to install and configure it for your Next.js project: https://tailwindcss.com/docs/guides/nextjs
+
+UI/UX Design Tools
+
+   Figma: My primary tool for creating wireframes, prototypes, and interactive designs. I will use this for all visual design aspects of the project.
+
+   Other tools (Optional):
+     - Adobe XD: Alternative to Figma for UI/UX design.
+     - Miro: For collaborative brainstorming and user flow diagrams.
+
+Folder Structure
+
+   All project work will be done within C:/Users/aupia/Git/MegaTEAM/devteam/juice
+   Create a meaningful folder structure, for example:
+
+   juice/
+     components/   # Reusable React components
+     pages/        # Next.js pages (routes)
+     public/       # Static assets (images, fonts, etc.)
+     styles/       # Global styles and Tailwind CSS configuration
+     design/ #Design Mockups and assets
+     wireframes/
+     prototypes/
+     research/
+     surveys/
+     interview_scripts/
+     documentation
+     reports
+
+Running the Development Server
+
+1. Start the Next.js development server:
+   In your terminal, navigate to the project directory (if you're not already there):
+   cd C:/Users/aupia/Git/MegaTEAM/devteam/juice
+   Start the development server:
+   npm run dev
+   or
+   yarn dev
+   This will typically start the server on http://localhost:3000. Open this address in your browser to view the application.

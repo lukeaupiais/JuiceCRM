@@ -1,103 +1,65 @@
-# MegaTEAM Juice Web Application - Project Roadmap
+# Project Roadmap
 
-## Project Vision
+## Project Definition
 
-To create a user-friendly and intuitive web application, accessible via modern web browsers, with a robust API for seamless data integration and supporting a wide variety of integrations with external systems and data sources.
+*   **Description:** Develop a web-based application with AI features to enhance customer support and sales efficiency.
+*   **Goals:** Create a user-friendly application that is easy to use, visually appealing, and offers AI-powered features.
+*   **Deliverables:** A functional web application with a modern UI, AI integrations, and a robust API.
 
-## Project Goals
+## Roadmap
 
-*   Develop a user-friendly and intuitive web application.
-*   Create a web-based platform accessible through modern web browsers.
-*   Implement a robust API for seamless data integration (both incoming and outgoing).
-*   Ensure the application supports a wide variety of integrations with external systems and data sources.
+*   **Phase 1 (2 weeks):** Set up the development environment, define the project structure, and implement the basic UI/UX.
+*   **Phase 2 (3 weeks):** Integrate the AI features and develop the API for data exchange.
+*   **Phase 3 (2 weeks):** Implement integrations and conduct thorough testing, followed by deployment.
 
-## Key Milestones
+## Progress Report
 
-### Phase 1: Planning and Setup
+*   **Frequency:** Weekly.
+*   **Content:**
+    *   Completed tasks.
+    *   Tasks in progress.
+    *   Impediments or challenges encountered.
+    *   Planned activities for the next week.
+    *   Progress towards the project milestones.
 
-*   **Milestone 1.1:** Project Kickoff - (Completed - assuming the provided project scope document is the result of this phase)
-    *   Define project team roles and responsibilities.  
-    *   Establish communication channels and reporting procedures.  
-    *   Finalize project schedule and budget.  
-    *   Tasks:
-        *   [x] Project Scope Document Review (Completed)
-        *   [ ] Project Plan Creation
-        *   [ ] Risk Assessment
-        *   [ ] Resource Allocation
-        *   [ ] Tools and Environment Setup
-*   **Milestone 1.2:** Environment and Tool Setup
-    *   Set up development environments (frontend, backend).
-    *   Select and configure required tools (IDE, version control, etc.).
-    *   Tasks:
-        *   [ ] Select development tools
-        *   [ ] Set up version control (Git)
-        *   [ ] Set up development environments
-### Phase 2: Frontend Development
+## Setup of packages, environments, and tools
 
-*   **Milestone 2.1:** Frontend Design and Prototyping
-    *   Design and implement a user-friendly and appealing user interface (UI).\n    *   Develop intuitive user experience (UX) workflows.
-    *   Tasks:
-        *   [ ] Create UI/UX designs and prototypes
-        *   [ ] User Interface Design
-        *   [ ] User Experience Workflows
-        *   [ ] Responsiveness testing
-*   **Milestone 2.2:** Frontend Development
-    *   Develop the frontend application
-    *   Ensure responsiveness across different devices and browsers.
-    *   Implement all UI elements and interactions.
-    *   Tasks:
-        *   [ ] Frontend development (UI elements, interactions)
-        *   [ ] Integration of Frontend with Backend API (Stubbing if necessary)
-        *   [ ] Browser compatibility testing
-        *   [ ] Responsive Design Implementation
-### Phase 3: Backend and API Development
+*   **Programming Language:** Python
+*   **Frontend:** NextJS, TailwindCSS
+*   **Backend:** Flask
+*   **AI Libraries:** TensorFlow or similar.
+*   **Database:** Oracle ATP (OCI)
+*   **Development Environment:** Python virtual environment.
+*   **Tools:** VS Code or similar IDE, Git, Docker (Optional).
 
-*   **Milestone 3.1:** Backend Architecture and Database Design
-    *   Develop a robust and scalable backend architecture.\n    *   Design the database schema.
-    *   Tasks:
-        *   [ ] Backend Architecture Design
-        *   [ ] Database schema definition
-*   **Milestone 3.2:** Backend Development and API Implementation
-    *   Implement the application logic and business rules.\n    *   Develop and implement a comprehensive API for integrations.\n    *   Manage data storage and retrieval.\n    *   Ensure security and data protection.
-    *   Tasks:
-        *   [ ] Backend development and implementation
-        *   [ ] API endpoint creation (RESTful)
-        *   [ ] API Documentation
-        *   [ ] Security and data protection implementation.\n        *   [ ] Database Integration
-### Phase 4: Testing and Integration
+## Tasks
 
-*   **Milestone 4.1:** Unit Testing and Integration Testing
-    *   Conduct thorough testing of all components (frontend, backend, API).\n    *   Tasks:
-        *   [ ] Unit Testing
-        *   [ ] Integration Testing
-        *   [ ] API Testing
-        *   [ ] Automated testing Implementation
-*   **Milestone 4.2:** User Acceptance Testing (UAT) and Bug Fixing
-    *   Perform user acceptance testing (UAT) to ensure user-friendliness and functionality.\n    *   Fix any identified bugs or issues.
-    *   Tasks:
-        *   [ ] UAT testing
-        *   [ ] Bug fixing
-        *   [ ] User feedback collection
-### Phase 5: Deployment and Launch
+*   [ ] Coding new features
+*   [ ] Refactoring of existing features
+*   [ ] Testing of code locally
+*   [ ] Committing to Git Locally
+*   [ ] Pushing Changes
+*   [ ] Deployment
 
-*   **Milestone 5.1:** Deployment Preparation
-    *   Prepare the application for deployment to a web server.\n    *   Configure and manage the deployment environment.
-    *   Tasks:
-        *   [ ] Deployment planning
-        *   [ ] Server configuration
-        *   [ ] Deployment scripts creation
-*   **Milestone 5.2:** Deployment and Launch
-    *   Deploy the application to a web server.\n    *   Ensure smooth deployment and application launch.
-    *   Tasks:
-        *   [ ] Application Deployment
-        *   [ ] Post-deployment testing
-        *   [ ] User onboarding
+## Future Improvements
 
-### Ongoing Activities
-*   Refactoring of existing features
-*   Coding new features
-*   Testing of code locally.
-*   Committing to Git Locally.
-*   Pushing Changes.
-*   Deployment
-```
+*   [ ] Add more AI Features.
+*   [ ] Improve UI/UX.
+*   [ ] Improve the API.
+*   [ ] Add more integrations.
+
+## MVP:
+
+*   (Define the MVP here - To be determined)
+
+## Integrations:
+
+*   (List possible integrations here - To be determined)
+
+## AI CSM:
+
+*   (Define AI-powered features for Customer Support - To be determined)
+
+## AI Sales:
+
+*   (Define AI-powered features for Sales - To be determined)
