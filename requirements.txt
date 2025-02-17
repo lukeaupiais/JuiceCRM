@@ -1,5 +1,0 @@
-fastapi
-uvicorn
-SQLAlchemy
-python-dotenv
-oracledb
